@@ -1,0 +1,56 @@
+/* CSS Document */
+
+/*NAV*/
+.nav-link
+{
+    font-size: large;
+    font-weight: bold;
+    color:yellow !important;
+    
+}
+
+.navbar
+{
+    background-color: black !important;
+}
+
+.navbar-brand
+{
+    color: yellow !important;
+}
+
+body
+{
+    background-color: gray;
+}
+
+button{
+    color: yellow;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+
+h1{
+    color: yellow;
+    
+}
+
+.lead
+{
+    color: yellow;
+}
+
+.row{
+    display: flex;
+}
+
+div{
+    display: block;
+}.offset-l-1 {
+}
+.offset-l-2 {
+}
+.align-items {
+}

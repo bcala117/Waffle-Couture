@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>|Waffle Coutour|</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href ="css/checkout.css">
+
+  </head>
+  <body>
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <header></header> 
+<div class="container-fluid p-0 "> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <script>
+            function play() {
+              var audio = document.getElementById("audio");
+              audio.play();
+            }
+          </script>
+            
+            <button class="fas fa-stroopwafel" onclick="play()"></button>
+            <audio id="audio" src="sh/EE.mp3"></audio>
+      
+        <a class="navbar-brand m-2" href="Home.html">|Waffle Coutour|</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dropdown">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="dropdown">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item active">
+              <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Catalog.html">Catalog</a>
+            </li>
+            
+              <!--<li class="nav-item">
+                <a class="nav-link" href="#">Checkout</a>
+              </li>  -->
+            <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li> 
+           
+          </ul>
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item  ml-auto">
+              <a class="nav-link"  href="Cart.html"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+
+          </ul>
+          
+        </div>
+      </nav>
+</div> 
+
+<!--Informaiton-->
+<h2 class= "m-4 text-center">Enter Shipping Information(Ships Domestic Only)</h2>
+  <form class="fa-pull-right ">
+<div class="card offset-xl-0 col-xl-12">
+  <div class="card-header"><h4 class="text-center">Order Information</h4>  
+    </div>
+  <div class="card-body">
+    <h5 class="card-title text-center">Order Summary</h5>
+    <p class="card-text">Items: 7</p>
+    <p class="card-text">Shipping: $4.99</p>
+    <p class="card-text text-left"> Total before tax: $339.92</p>
+    <p class="card-text text-left">Coupon Code:</p>
+</div>
+ <p class="card-footer ">Order Subtotal: $366.71</p>
+</div>
+    <div class="input-group">
+	  	<input type="text" class="form-control" placeholder="Promo">
+ 	  <button type="submit" class="btn btn-secondary">Redeem</button> 
+    </div>
+	</form> 
+<div>
+<div class="container-fluid text-center justify-content-center ">
+<form class="needs-validation  align-items" >
+	<div class="col-md-6 order-md-1 col-xl-4 justify-content-center offset-xl-4" >
+  
+  
+  <div class="row">
+    <div class="col-md-6 mb-3 col-xl-5 offset-xl-1">
+    <label for="FirstName">First Name</label>
+    <input type="text" class="form-control" id="FirstName" required>
+    <div class="invalid-feedback">
+      Please enter a valid First Name
+    </div>
+   </div>
+  <div class="col-md-6 mb-3 col-xl-5">
+    <label for="LastName">Last Name</label>
+    <input type="text" class="form-control" id="LastName" required>
+    <div class="invalid-feedback">
+      Please enter a valid Last Name
+    </div>
+  </div> 
+</div> 
+
+<div class="row">
+  <div class="mb-2 col-xl-10 offset-xl-1">
+    <label for="Email">Email</label>
+    <input type="email" class="form-control" id="Email" required>
+    <div class="invalid-feedback">
+      Please enter a valid email address
+    </div>
+  </div>
+  <div class ="col-md-6 mb-3 col-xl-10 col-lg-12 offset-xl-1">
+    <label for="Address">Address</label>
+    <input type="text" class="form-control" id="Address" required>
+    <div class="invalid-feedback">
+      Please enter a valid address
+    </div>
+  </div>
+</div>
+	</div> 
+    
+<div class="row">
+	
+	<div class="col-md-6 mb-3 col-xl-1 offset-xl-5">
+    	<label for="State">State</label>
+    	<select id="State" class="form-control ">
+			<option value="Alabama">AL</option><option value="Alaska">AK</option><option value="Arizona">AZ</option>
+			<option value="Arkansas">AR</option><option value="California">CA</option><option value="Colorado">CO</option>
+			<option value="Connecticut">CT</option><option value="Delaware">DE</option><option value="Florida">FL</option>
+			<option value="Georgia">GA</option><option value="Hawaii">HI</option><option value="Idaho">ID</option>
+			<option value="Illinois">IL</option><option value="Indiana">IN</option><option value="Iowa">IA</option>
+			<option value="Kansas">KA</option><option value="Kentucky">KY</option><option value="Louisiana">LA</option>
+			<option value="Maine">ME</option><option value="Maryland">MD</option><option value="Massachusetts">MA</option>
+			<option value="Michigan">MI</option><option value="Minnesota">MN</option><option value="Mississippi">MS</option>
+			<option value="Missouri">MO</option><option value="Montana">MT</option><option value="Nebraska">NE</option>
+			<option value="Nevada">NV</option><option value="NewHampshire">NH</option><option value="NewJersey">NJ</option>
+			<option value="NewMexico">NM</option><option value="NewYork">NY</option><option value="NorthCarolina">NC</option>
+			<option value="NorthDakota">ND</option><option value="Ohio">OH</option><option value="Oklahoma">OK</option>
+			<option value="Oregon">OR</option><option value="Pennsylvania">PA</option><option value="RhodeIsland">RI</option>
+			<option value="SouthCarolina">SC</option><option value="SouthDakota">SD</option><option value="Tennessee">TN</option>
+			<option value="Texas">TX</option><option value="Utah">UT</option><option value="Vermont">VT</option>
+			<option value="Virginia">VA</option><option value="Washington">WA</option><option value="WestVirignia">WV</option>
+			<option value="Wisconsin">WI</option><option value="Wyoming">WY</option>
+		</select>
+					
+	</div>
+	<div class="col-md-6 mb-3 col-xl-2">
+	<label for="City">City</label>
+    <input type="text" class="form-control" id="City" required>
+	</div>
+	<div class="col-md-6 mb-3 col-xl-1">
+    <label for="Zip">Zip</label>
+    <input type="text" class="form-control" id="Zip" required>
+	</div>
+</div>
+	
+  </form>
+  </div>
+
+</div>	  
+	  
+<br><br>
+  
+<p class ="pt-4 pl-4 text-center">
+  <label>
+    <input type="checkbox" name="ShipInfo" value="Shipping " id="ShipInfo_0" required>
+    Shipping address is the same as Billing address</label>
+	<br>
+  <label >
+    <input type="checkbox" name="ShipInfo" value="Save " id="ShipInfo_1" required>
+    Save information for next time</label>
+  <br>
+</p>
+
+	 
+<h3 class="pt-2 m-4 text-center" >Enter Payment Information</h3>
+	   <div>
+<p class="p-4 pl-5 text-center">
+    <label><input type="radio" name="PaymentMethod" value="Credit" id="PaymentMethod1">Credit</label>
+		    <label><input type="radio" name="PaymentMethod" value="Debit" id="PaymentMethod2">Debit</label>
+		    <label><input type="radio" name="PaymentMethod" value="Paypal" id="PaymentMethod3">Paypal</label>
+         </p>
+  </div>
+	  
+ 
+<div class="container-fluid align-items-center justify-content-center">
+<form class="needs-validation" >
+	<div>
+  
+  
+  <div class="row text-center ">
+    <div class="col-md-6 mb-3 col-xl-2 offset-xl-4">
+    <label for="Name">Name of Card Holder</label>
+    <input type="text" class="form-control" id="Name">
+    <div class="invalid-feedback">
+      Please enter a valid Cardholder name
+    </div>
+	  </div>
+   
+  <div class="col-md-6 mb-3 col-xl-2 offset-xl-0">
+    <label for="Number">Number on card</label>
+    <input type="text" class="form-control" id="Number">
+    <div class="invalid-feedback">
+      Please enter a Card number
+    </div>
+	  </div>
+	</div>
+	
+ <div class="row text-center ">
+    <div class="mr-3 col-md-6 mb-3 col-xl-2 offset-xl-4">
+    <label for="Exp">Expiration Date</label>
+    <input type="text" class="form-control" id="Exp">
+    <div class="invalid-feedback">
+      Please enter a valid Expiration Date
+    </div>
+   </div>
+  <div class="ml-5 col-md-6 mb-3 offset-xl-0 col-xl-1">
+    <label for="CVV">CVV</label>
+    <input type="text" class="form-control" id="CVV">
+    <div class="invalid-feedback">
+      Please enter a valid CVV
+    </div>	  
+  </div> 
+</div>
+	</div>
+  </form>
+	  </div>
+  <div class="container-fluid text-center">
+	 <label>
+    <input type="checkbox" name="Terms" value="Save" required>
+    By checking this you agree to the <a href="#" onclick="window.open('Terms.html', 'Terms&Cond', 'width=400,height=400');">Terms and Conditions.</a>
+	 </label>
+	</div>
+  <div class="text-center p-4">
+<button type="submit" class="btn btn-primary btn-lg ">Proceed to checkout</button>	
+	</div>
+	
+</body>
+</html>	

@@ -1,0 +1,35 @@
+/*NAV*/
+.nav-link
+{
+    font-size: large;
+    font-weight: bold;
+    color:yellow !important;
+    
+}
+
+.navbar
+{
+    background-color: black !important;
+}
+
+.navbar-brand
+{
+    color: yellow !important;
+}
+
+body
+{
+    background-color: gray;
+}
+
+button{
+    color: yellow;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+p{
+	font-size: x-large;
+}
+

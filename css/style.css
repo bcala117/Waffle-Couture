@@ -1,0 +1,50 @@
+/*NAV*/
+.nav-link
+{
+    font-size: large;
+    font-weight: bold;
+    color:yellow !important;
+    
+}
+
+.navbar
+{
+    background-color: black !important;
+}
+
+.navbar-brand
+{
+    color: yellow !important;
+}
+
+body
+{
+    background-color: gray;
+}
+
+button{
+    color: yellow;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+/*Jumbotron*/
+
+.jumbotron{
+    background: url(../img/Waffle.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat:no-repeat ;
+	font-size: large;
+
+}
+
+h1{
+    color: yellow;
+    
+}
+
+.lead
+{
+    color: yellow;
+}
